@@ -8,8 +8,10 @@
         padding-top: 2%;
         }
 #flex-container3{
-            display: flex;
-            flex-direction: row;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;}
+.him{
             padding: 10%;
             padding-top: 2%;}
 li.nav{
