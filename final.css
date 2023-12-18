@@ -60,7 +60,7 @@ header,#horford{
             }
 hr{
     height: 5px;
-    background-color:white;
+    background-color:rgb(33, 177, 122);
 }
 a{
     text-decoration: none;
@@ -74,6 +74,10 @@ a:visited{
     color:white; 
 }
 #art{
-    background-color:black;
+    background-color:white;
+}
+#hidear img{
+    padding: o;
+    border: 1vw solid rgb(33, 177, 122);
 }
            
