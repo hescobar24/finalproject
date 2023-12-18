@@ -30,7 +30,7 @@ header,#horford{
     height: 13vw;
     padding-top: 0.75vw;
     padding-bottom: 6vw;}
-#lucky{
+#lucky a:visited{
         color: rgb(33, 177, 122);
     }
 #scarface{
@@ -60,7 +60,20 @@ header,#horford{
             }
 hr{
     height: 5px;
-    background-color: rgb(33, 177, 122);
+    background-color:white;
 }
-
+a{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+#horford a:visited{
+    text-decoration: none;
+    color:white; 
+}
+#art{
+    background-color:rgb(33, 177, 122);
+}
            
