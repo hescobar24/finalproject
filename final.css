@@ -82,6 +82,8 @@ a:visited{
 }
 #hidear img{
     border: 1vw solid rgb(33, 177, 122);
-    padding: 0;
+}
+#des{
+    margin-left: -15vw;
 }
            
