@@ -41,10 +41,13 @@ header,#horford{
         padding: 16%;
         padding-top: 2%;
         margin-top: 1%;
-    padding-bottom: 8%;}
+    padding-bottom: 4.5%;}
 
 #flex-item{
     padding: 5.5%;
+}
+#flex-item2{
+    margin-left: 8%;
 }
 .clover{
     font-family: "helvetica";
