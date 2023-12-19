@@ -71,8 +71,11 @@ a{
 }
 a:visited{
     text-decoration: none;
-    color: rgb(33, 177, 122);;
+    color: rgb(33, 177, 122);}
+a:hover{
+    color: black;
 }
+
 #horford a:visited{
     text-decoration: none;
     color:white; 
