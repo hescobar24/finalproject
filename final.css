@@ -19,7 +19,14 @@ li.nav{
         display:inline;
         margin: 5.5vw;
         list-style-type:none;
+        color: rgb(33, 177, 122);
         font-family: Arial, Helvetica, sans-serif;}
+li.nav a:link{
+    color: rgb(33, 177, 122);
+}
+li.nav a:link:hover{
+    color: black;
+}
 #brown{
     text-align: center;
 }
@@ -34,9 +41,12 @@ header,#horford{
     height: 13vw;
     padding-top: 0.75vw;
     padding-bottom: 6vw;}
-#lucky a:visited{
-        color: rgb(33, 177, 122);
-    }
+#horford a{
+    color: white;
+}
+#horford a:hover {
+    color: black;
+}
 #scarface{
         padding: 14.5%;
         padding-top: 2%;
@@ -77,6 +87,9 @@ hr{
 a{
     text-decoration: none;
 }
+a:link{
+    color: white;
+}
 a:visited{
     text-decoration: none;
     color: rgb(33, 177, 122);}
@@ -87,6 +100,9 @@ a:hover{
 #horford a:visited{
     text-decoration: none;
     color:white; 
+}
+#horford a:visited:hover{
+    color: black;
 }
 #art{
     background-color:rgb(239, 237, 237);}
