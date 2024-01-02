@@ -131,4 +131,35 @@ a:hover {
 #final {
     background-color:rgb(239, 237, 237);
 }
+.img-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+.img-wrapper img {
+display: block;
+width: 100%;
+object-fit: cover;
+object-position: center;
+}
+.img-wrapper .content{
+    position: absolute;
+    inset: 0;
+    font-size: 1rem;
+    background: rgba(255, 255, 255, .4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-wrapper img
+.img-wrapper .content {
+    transition: 200ms ease-in-out;
+}
+.img-wrapper:hover .zoom {
+    transform: scale(1.1);
+}
+
+.img-wrapper img {
+    width: 300%;
+}
            
