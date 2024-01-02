@@ -60,7 +60,44 @@ header{
     margin-top: 1%;
     padding-bottom: 4.5%;
 }
-
+.sidemenu {
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: -35vw;
+    min-height: 100%;
+    min-width: 35vw;
+    background-color:rgb(239, 237, 237);
+    transition: left .38s ease-in-out;
+}
+.sidemenu-active {
+    visibility: visible;
+    left: 0;
+}
+.menu-option {
+    margin: 0.65vw 2vw;
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 87%);
+    border-radius: 0.7vw;
+}
+.menu-option > object {
+    width: 1.75vw;
+    height: 1.75vw;
+    pointer-events: none;
+}
+.menu-option-description {
+    margin-left: 0.65vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.75vw;
+}
 #flex-item {
     padding: 5.5%;
 }
