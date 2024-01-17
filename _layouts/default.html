@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html id="final">
+    <head>
+        <title> {{ page.title }} | hideart </title>
+        <link rel="stylesheet" type="text/css" href="final.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM+Sans">
+    </head>
+    <body>
+        <div>
+            {% include sidemenu.html %}
+            {% include header.html %}
+            {% include mainnav.html %}
+            {{ content }}
+        </div>
+        {% include footer.html %}
+    </body>
+</html>
