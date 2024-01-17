@@ -1,19 +1,11 @@
-#flex-container {
+.flex-container {
     display: flex;
-    flex-direction: row;
 }
-.flex-container2 {
-    display: flex;
-    flex-direction: row;
+#art-container {
     flex-wrap: wrap;
     justify-content: center;
 }
-#flex-container3 {
-    display: flex;
-    flex-direction: row;
-}
-
-.flex-container2 div {
+#art-container div {
     width:30%;
     margin:1.5vw;
 }
